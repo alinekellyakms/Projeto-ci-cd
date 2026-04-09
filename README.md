@@ -1,4 +1,5 @@
 # Projeto CI/CD - Clima com OpenWeatherMap
+Projeto atualizado para testar CI/CD
 
 Este projeto é um exemplo de integração contínua (CI) e entrega contínua (CD) usando **GitHub Actions**.  
 Ele consulta a API do [OpenWeatherMap](https://openweathermap.org/) para obter a temperatura atual de uma cidade e 

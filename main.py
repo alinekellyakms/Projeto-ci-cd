@@ -16,6 +16,9 @@ def clima(cidade):
         return None
 
 if __name__ == "__main__":
-    temperatura = clima("Toledo")
-    if temperatura is not None:
-        print(f"Temperatura em Toledo: {temperatura}°C")
+    resultado = clima("Toledo")
+    if resultado is not None:
+        temp, desc = resultado
+        print(f"Temperatura em Toledo: {temp}°C - {desc}")
+
+
