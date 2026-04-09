@@ -19,3 +19,5 @@ if __name__ == "__main__":
     temperatura = clima("Toledo")
     if temperatura is not None:
         print(f"Temperatura em Toledo: {temperatura}°C")
+
+# Implementar integração com a API OpenWeatherMap
