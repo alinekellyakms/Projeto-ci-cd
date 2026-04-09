@@ -1,5 +1,6 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from main import clima
 
-def test_clima_existe():
-    # Teste básico: apenas verifica se a função está definida
+def test_clima_existe():  # Aline-Kelly
     assert callable(clima)
