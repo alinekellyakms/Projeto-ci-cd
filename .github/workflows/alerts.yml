@@ -14,6 +14,7 @@ jobs:
     steps:
       - name: Enviar alerta para Discord
         uses: Ilshidur/action-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          message: "Novo commit/merge na main por ${{ github.actor }}: ${{ github.event.head_commit.message }}"
+          args: " Novo commit/merge na main por ${{ github.actor }}: ${{ github.event.head_commit.message }}"
